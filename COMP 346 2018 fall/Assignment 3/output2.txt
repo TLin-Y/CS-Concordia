@@ -1,0 +1,364 @@
+/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50602:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/lin/IdeaProjects/Comp 346 PA3/out/production/Comp 346 PA3" DiningPhilosophers
+Input the number of Philosophers: 
+4
+There are 4 philosophers setting on the table
+ 
+4 philosopher(s) came in for a dinner.
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 3 start thinking
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+Philosopher 3 done thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: My number is 1
+Philosopher 1 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 4 done thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 3 done thinking
+Philosopher 3 start talking
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 done talking
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 done talking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 1 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 done talking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 done talking
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 done thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 3 done thinking
+Philosopher 3 start talking
+Philosopher 3 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 3 done talking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 1 done thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 4 done thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 4 done thinking
+Philosopher 2 done thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 3 done thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: If thee cannot speak, thee must be silent
+Philosopher 1 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 done thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 3 done thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 4 done thinking
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 done talking
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 1 done thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 done thinking
+Philosopher 3 start talking
+Philosopher 3 says: You know, true is false and false is true if you think of it
+Philosopher 3 done talking
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 2 done thinking
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 3 done thinking
+Philosopher 3 start talking
+Philosopher 3 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 3 done talking
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 1 done talking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 4 done thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+WAITING: Philosopher 4 is waiting for chopsticks 3, 0
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 3 done thinking
+Philosopher 3 start talking
+Philosopher 3 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 3 done talking
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: If thee cannot speak, thee must be silent
+Philosopher 1 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: My number is 2
+Philosopher 2 done talking
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done thinking
+Philosopher 4 start talking
+Philosopher 4 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 4 done talking
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 1 done thinking
+Philosopher 1 start talking
+Philosopher 1 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 1 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 4 done thinking
+Philosopher 4 start talking
+Philosopher 4 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 4 done talking
+Philosopher 2 done thinking
+Philosopher 2 start talking
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 done talking
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+WAITING: Philosopher 2 is waiting for chopsticks 1, 2
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 4 picks up chopsticks 3, 0
+Philosopher 4 start eating
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 done thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+Philosopher 3 done thinking
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done thinking
+Philosopher 2 picks up chopsticks 1, 2
+Philosopher 2 start eating
+Philosopher 4 done eating
+Philosopher 4 put down chopsticks 3, 0
+Philosopher 4 start thinking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 4 done thinking
+Philosopher 4 start talking
+Philosopher 4 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 4 done talking
+WAITING: Philosopher 1 is waiting for chopsticks 0, 1
+WAITING: Philosopher 3 is waiting for chopsticks 2, 3
+Philosopher 2 done eating
+Philosopher 2 put down chopsticks 1, 2
+Philosopher 2 start thinking
+Philosopher 1 picks up chopsticks 0, 1
+Philosopher 1 start eating
+Philosopher 3 picks up chopsticks 2, 3
+Philosopher 3 start eating
+Philosopher 1 done eating
+Philosopher 1 put down chopsticks 0, 1
+Philosopher 1 start thinking
+Philosopher 3 done eating
+Philosopher 3 put down chopsticks 2, 3
+Philosopher 3 start thinking
+Philosopher 3 done thinking
+Philosopher 2 done thinking
+Philosopher 1 done thinking
+All philosophers have left. System terminates normally.
+
+Process finished with exit code 0

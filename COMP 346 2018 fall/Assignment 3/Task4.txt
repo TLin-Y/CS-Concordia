@@ -1,0 +1,25 @@
+ *
+ * Tianlin Yang 40010303
+ * Gaoshuo Cui 40085020
+ *
+
+PA3 Task4
+----------------------------------------------------------------------
+Using monitor to control the all philosophers threads. 
+For example 5 philosophers here.
+
+Step1:
+	Generate 5 philosophers and save them into the waitingQueue. 
+Step2:
+	All philosophers running and try pickup chopsticks at same time.
+Step:3
+	Check philosopher left and right chopsticks availability. If okey,
+	JVM randomly pick 2 philosophers(1st p than 2nd p) first eat, other 3 should waiting.
+	Than remove these 2 philosophers from waitingQueue.
+	They Putdown the chopsticks, waiting for Others 3 finish eat.
+Step4:
+	After that, only 3 philosophers in Queue, repeat to Step3 until all 5 philosophers finish.
+Step5:
+	Once the waitingQueue is empty, back to Step1 until DINING_STEPS = 10.
+
+	Therefore, for each DINING_STEPS, all philosophers can eat with random order, without any Deadlock or Starvation.

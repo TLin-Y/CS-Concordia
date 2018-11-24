@@ -1,0 +1,15 @@
+/**
+ * Tianlin Yang
+ * 40010303
+ * Gaoshuo Cui
+ * 40085020
+ */
+
+public class CharStackFullException extends Exception
+{
+           public CharStackFullException()
+          {
+                  super ("Char Stack has reached its capacity of CharStack.MAX_SIZE.");
+           }
+}
+

@@ -1,0 +1,69 @@
+/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=50286:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/lin/IdeaProjects/Task1 346a2/out/production/Task1 346a2" StackManager
+Main thread starts executing.
+Initial value of top = 3.
+Initial value of stack top = d.
+Main thread will now fork several threads.
+Two Consumer threads have been created.
+Two Producer threads have been created.
+One CharStackProber thread has been created.
+Producer thread [TID=3] starts executing.
+Consumer thread [TID=1] starts executing.
+Consumer thread [TID=2] starts executing.
+1 threads is waiting on the semaphore: [1]
+2 threads is waiting on the semaphore: [1, 2]
+Producer thread [TID=4] starts executing.
+3 threads is waiting on the semaphore: [1, 2, 4]
+Producer thread [TID=3] pushes character =e
+4 threads is waiting on the semaphore: [1, 2, 4, 3]
+3 threads waiting on this semaphore. TID: [2, 4, 3]
+CharStackProber thread [TID=5] starts executing.
+Consumer thread [TID=1] pops character =e
+4 threads is waiting on the semaphore: [2, 4, 3, 5]
+5 threads is waiting on the semaphore: [2, 4, 3, 5, 1]
+4 threads waiting on this semaphore. TID: [4, 3, 5, 1]
+Consumer thread [TID=2] pops character =d
+5 threads is waiting on the semaphore: [4, 3, 5, 1, 2]
+4 threads waiting on this semaphore. TID: [3, 5, 1, 2]
+Producer thread [TID=4] pushes character =d
+5 threads is waiting on the semaphore: [3, 5, 1, 2, 4]
+4 threads waiting on this semaphore. TID: [5, 1, 2, 4]
+Producer thread [TID=3] pushes character =e
+5 threads is waiting on the semaphore: [5, 1, 2, 4, 3]
+4 threads waiting on this semaphore. TID: [1, 2, 4, 3]
+Stack S = ([a],[b],[c],[d],[e],[$],[$],[$],[$],[$])
+5 threads is waiting on the semaphore: [1, 2, 4, 3, 5]
+4 threads waiting on this semaphore. TID: [2, 4, 3, 5]
+Consumer thread [TID=1] pops character =e
+5 threads is waiting on the semaphore: [2, 4, 3, 5, 1]
+4 threads waiting on this semaphore. TID: [4, 3, 5, 1]
+Consumer thread [TID=2] pops character =d
+5 threads is waiting on the semaphore: [4, 3, 5, 1, 2]
+4 threads waiting on this semaphore. TID: [3, 5, 1, 2]
+Producer thread [TID=4] pushes character =d
+5 threads is waiting on the semaphore: [3, 5, 1, 2, 4]
+4 threads waiting on this semaphore. TID: [5, 1, 2, 4]
+Producer thread [TID=3] pushes character =e
+3 threads waiting on this semaphore. TID: [1, 2, 4]
+Stack S = ([a],[b],[c],[d],[e],[$],[$],[$],[$],[$])
+4 threads is waiting on the semaphore: [1, 2, 4, 5]
+3 threads waiting on this semaphore. TID: [2, 4, 5]
+Consumer thread [TID=1] pops character =e
+Producer thread [TID=3] terminates.
+2 threads waiting on this semaphore. TID: [4, 5]
+Consumer thread [TID=2] pops character =d
+1 threads waiting on this semaphore. TID: [5]
+Producer thread [TID=4] pushes character =d
+Producer thread [TID=4] terminates.
+0 threads waiting on this semaphore. TID: []
+Consumer thread [TID=1] terminates.
+Consumer thread [TID=2] terminates.
+Stack S = ([a],[b],[c],[d],[$],[$],[$],[$],[$],[$])
+Stack S = ([a],[b],[c],[d],[$],[$],[$],[$],[$],[$])
+Stack S = ([a],[b],[c],[d],[$],[$],[$],[$],[$],[$])
+Stack S = ([a],[b],[c],[d],[$],[$],[$],[$],[$],[$])
+System terminates normally.
+Final value of top = 3.
+Final value of stack top = d.
+Final value of stack top-1 = c.
+
+Process finished with exit code 0
